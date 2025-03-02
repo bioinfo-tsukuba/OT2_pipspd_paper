@@ -1,0 +1,457 @@
+well,operation,volume,unix_time,JST(GMT+9),tip_from,remark
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,285.7,1705478967.542209,2024-01-17 17:09:27,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,285.7,1705478967.5422904,2024-01-17 17:09:27,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705478976.8901627,2024-01-17 17:09:36,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705478976.890252,2024-01-17 17:09:36,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705478992.0876186,2024-01-17 17:09:52,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705478992.0876865,2024-01-17 17:09:52,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,335.3,1705479007.2774174,2024-01-17 17:10:07,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,335.3,1705479007.277485,2024-01-17 17:10:07,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,350.5,1705479022.4273527,2024-01-17 17:10:22,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,350.5,1705479022.4274194,2024-01-17 17:10:22,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,348.6,1705479038.10756,2024-01-17 17:10:38,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,348.6,1705479038.1076286,2024-01-17 17:10:38,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,331.4,1705479053.807605,2024-01-17 17:10:53,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,331.4,1705479053.807674,2024-01-17 17:10:53,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,441.6,1705479069.147758,2024-01-17 17:11:09,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,441.6,1705479069.1478293,2024-01-17 17:11:09,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,285.7,1705479086.857603,2024-01-17 17:11:26,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,285.7,1705479086.8576703,2024-01-17 17:11:26,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705479097.2076328,2024-01-17 17:11:37,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705479097.2076986,2024-01-17 17:11:37,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705479112.9674957,2024-01-17 17:11:52,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705479112.9675622,2024-01-17 17:11:52,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,335.3,1705479128.717403,2024-01-17 17:12:08,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,335.3,1705479128.717473,2024-01-17 17:12:08,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,350.5,1705479144.4274862,2024-01-17 17:12:24,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,350.5,1705479144.427553,2024-01-17 17:12:24,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,348.6,1705479160.687464,2024-01-17 17:12:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,348.6,1705479160.6875358,2024-01-17 17:12:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,331.4,1705479176.9775574,2024-01-17 17:12:56,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,331.4,1705479176.9776235,2024-01-17 17:12:56,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,441.6,1705479192.9077463,2024-01-17 17:13:12,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,441.6,1705479192.9078133,2024-01-17 17:13:12,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,285.7,1705479211.1976924,2024-01-17 17:13:31,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,285.7,1705479211.1977584,2024-01-17 17:13:31,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705479221.8375556,2024-01-17 17:13:41,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705479221.8376234,2024-01-17 17:13:41,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,337.2,1705479238.1574974,2024-01-17 17:13:58,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,337.2,1705479238.1575665,2024-01-17 17:13:58,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,335.3,1705479254.467849,2024-01-17 17:14:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,335.3,1705479254.467917,2024-01-17 17:14:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,350.5,1705479270.7775035,2024-01-17 17:14:30,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"A6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,350.5,1705479270.7775707,2024-01-17 17:14:30,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,348.6,1705479287.6274087,2024-01-17 17:14:47,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,348.6,1705479287.627476,2024-01-17 17:14:47,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,331.4,1705479304.4875138,2024-01-17 17:15:04,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"C6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,331.4,1705479304.487581,2024-01-17 17:15:04,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,441.6,1705479320.9671915,2024-01-17 17:15:20,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"D6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,441.6,1705479320.9672604,2024-01-17 17:15:20,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to RNA-seq tube
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479339.8290637,2024-01-17 17:15:39,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479339.829123,2024-01-17 17:15:39,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479348.4791977,2024-01-17 17:15:48,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479348.479257,2024-01-17 17:15:48,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479357.1890554,2024-01-17 17:15:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479357.1891146,2024-01-17 17:15:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479365.859004,2024-01-17 17:16:05,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479365.8590639,2024-01-17 17:16:05,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479374.500191,2024-01-17 17:16:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479374.5002525,2024-01-17 17:16:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479383.0991426,2024-01-17 17:16:23,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479383.0992055,2024-01-17 17:16:23,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479391.6492834,2024-01-17 17:16:31,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479391.6493442,2024-01-17 17:16:31,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479400.159465,2024-01-17 17:16:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479400.1595242,2024-01-17 17:16:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479408.6291614,2024-01-17 17:16:48,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479408.629222,2024-01-17 17:16:48,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479417.2392762,2024-01-17 17:16:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479417.239336,2024-01-17 17:16:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479426.009263,2024-01-17 17:17:06,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479426.0093253,2024-01-17 17:17:06,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479434.7389698,2024-01-17 17:17:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479434.7390282,2024-01-17 17:17:14,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479443.4291205,2024-01-17 17:17:23,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479443.4291828,2024-01-17 17:17:23,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479452.069069,2024-01-17 17:17:32,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479452.069128,2024-01-17 17:17:32,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479460.6790876,2024-01-17 17:17:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479460.6791527,2024-01-17 17:17:40,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479469.2390423,2024-01-17 17:17:49,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479469.2391047,2024-01-17 17:17:49,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479477.7590473,2024-01-17 17:17:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479477.7591069,2024-01-17 17:17:57,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479486.4390674,2024-01-17 17:18:06,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479486.4391289,2024-01-17 17:18:06,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479495.2593427,2024-01-17 17:18:15,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479495.2594051,2024-01-17 17:18:15,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479504.0492358,2024-01-17 17:18:24,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479504.0492957,2024-01-17 17:18:24,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479512.7892416,2024-01-17 17:18:32,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479512.7893045,2024-01-17 17:18:32,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479521.498976,2024-01-17 17:18:41,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479521.4990377,2024-01-17 17:18:41,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479530.16921,2024-01-17 17:18:50,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479530.1692715,2024-01-17 17:18:50,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"B3 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,180,1705479538.7993896,2024-01-17 17:18:58,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,180,1705479538.7994506,2024-01-17 17:18:58,A2 of Opentrons 96 Tip Rack 300 µL on 4,Add water to 96 well plate
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705479574.4937284,2024-01-17 17:19:34,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1714.3,1705479586.4447784,2024-01-17 17:19:46,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_RNAseq
+"A1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1714.3,1705479586.4448519,2024-01-17 17:19:46,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_RNAseq
+"A1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705479627.2057786,2024-01-17 17:20:27,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_RNAseq
+"A1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705479635.6088352,2024-01-17 17:20:35,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_96well
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705479635.608895,2024-01-17 17:20:35,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_96well
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705479638.676029,2024-01-17 17:20:38,B2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T1_96well
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479643.3712127,2024-01-17 17:20:43,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_spotting on Deck6
+"C4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479643.3712761,2024-01-17 17:20:43,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_spotting on Deck6
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479651.3118353,2024-01-17 17:20:51,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_spotting on Deck9
+"C4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479651.311896,2024-01-17 17:20:51,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_spotting on Deck9
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479657.9417431,2024-01-17 17:20:57,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_edge-spotting on Deck6
+"B3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479657.9418042,2024-01-17 17:20:57,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_edge-spotting on Deck6
+"A2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479664.5417457,2024-01-17 17:21:04,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_edge-spotting on Deck9
+"B3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479664.5418067,2024-01-17 17:21:04,A1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T1_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705479713.8936741,2024-01-17 17:21:53,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705479727.9847317,2024-01-17 17:22:07,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_RNAseq
+"B1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705479727.9848053,2024-01-17 17:22:07,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_RNAseq
+"B1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705479772.29581,2024-01-17 17:22:52,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_RNAseq
+"B1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705479782.788566,2024-01-17 17:23:02,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_96well
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705479782.788626,2024-01-17 17:23:02,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_96well
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705479785.8759358,2024-01-17 17:23:05,C2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T1_96well
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479791.2515042,2024-01-17 17:23:11,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_spotting on Deck6
+"D4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479791.2515721,2024-01-17 17:23:11,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_spotting on Deck6
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479799.202001,2024-01-17 17:23:19,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_spotting on Deck9
+"D4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479799.2020633,2024-01-17 17:23:19,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_spotting on Deck9
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479805.832383,2024-01-17 17:23:25,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_edge-spotting on Deck6
+"C3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479805.8324478,2024-01-17 17:23:25,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_edge-spotting on Deck6
+"B2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479812.4417756,2024-01-17 17:23:32,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_edge-spotting on Deck9
+"C3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479812.4418397,2024-01-17 17:23:32,B1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T1_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705479861.8438106,2024-01-17 17:24:21,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705479881.0347974,2024-01-17 17:24:41,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_RNAseq
+"C1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705479881.034874,2024-01-17 17:24:41,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_RNAseq
+"C1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705479934.6758337,2024-01-17 17:25:34,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_RNAseq
+"C1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705479950.198753,2024-01-17 17:25:50,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_96well
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705479950.1988134,2024-01-17 17:25:50,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_96well
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705479953.3758714,2024-01-17 17:25:53,D2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T1_96well
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479960.691367,2024-01-17 17:26:00,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_spotting on Deck6
+"E4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479960.6914291,2024-01-17 17:26:00,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_spotting on Deck6
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479968.6215267,2024-01-17 17:26:08,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_spotting on Deck9
+"E4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479968.621593,2024-01-17 17:26:08,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_spotting on Deck9
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479975.26175,2024-01-17 17:26:15,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_edge-spotting on Deck6
+"D3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705479975.2618105,2024-01-17 17:26:15,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_edge-spotting on Deck6
+"C2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705479981.8617315,2024-01-17 17:26:21,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_edge-spotting on Deck9
+"D3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705479981.8617926,2024-01-17 17:26:21,C1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T1_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705480031.344298,2024-01-17 17:27:11,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1664.7,1705480072.654829,2024-01-17 17:27:52,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_RNAseq
+"D1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1664.7,1705480072.6549044,2024-01-17 17:27:52,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_RNAseq
+"D1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705480167.7658195,2024-01-17 17:29:27,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_RNAseq
+"D1 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705480205.4288416,2024-01-17 17:30:05,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_96well
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705480205.428903,2024-01-17 17:30:05,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_96well
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705480209.147626,2024-01-17 17:30:09,E2 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T1_96well
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480225.3813078,2024-01-17 17:30:25,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_spotting on Deck6
+"F4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480225.3813987,2024-01-17 17:30:25,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_spotting on Deck6
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480233.301705,2024-01-17 17:30:33,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_spotting on Deck9
+"F4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480233.3017676,2024-01-17 17:30:33,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_spotting on Deck9
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480239.9318159,2024-01-17 17:30:39,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_edge-spotting on Deck6
+"E3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480239.9318774,2024-01-17 17:30:39,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_edge-spotting on Deck6
+"D2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480246.532046,2024-01-17 17:30:46,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_edge-spotting on Deck9
+"E3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480246.5321093,2024-01-17 17:30:46,D1 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T1_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705480295.9737608,2024-01-17 17:31:35,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1649.5,1705480307.9349182,2024-01-17 17:31:47,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_RNAseq
+"A2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1649.5,1705480307.9349916,2024-01-17 17:31:47,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_RNAseq
+"A2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705480349.1558166,2024-01-17 17:32:29,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_RNAseq
+"A2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705480357.5388274,2024-01-17 17:32:37,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_96well
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705480357.5388877,2024-01-17 17:32:37,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_96well
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705480360.5058186,2024-01-17 17:32:40,F2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T1_96well
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480365.2213173,2024-01-17 17:32:45,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_spotting on Deck6
+"C5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480365.2213786,2024-01-17 17:32:45,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_spotting on Deck6
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480373.0017395,2024-01-17 17:32:53,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_spotting on Deck9
+"C5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480373.001801,2024-01-17 17:32:53,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_spotting on Deck9
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480379.541955,2024-01-17 17:32:59,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_edge-spotting on Deck6
+"F3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480379.5420172,2024-01-17 17:32:59,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_edge-spotting on Deck6
+"E2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480386.1217353,2024-01-17 17:33:06,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_edge-spotting on Deck9
+"F3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480386.1217985,2024-01-17 17:33:06,E1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T1_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705480435.6136,2024-01-17 17:33:55,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1651.4,1705480449.6948287,2024-01-17 17:34:09,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_RNAseq
+"B2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1651.4,1705480449.6949031,2024-01-17 17:34:09,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_RNAseq
+"B2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705480494.435937,2024-01-17 17:34:54,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_RNAseq
+"B2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705480504.9386613,2024-01-17 17:35:04,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_96well
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705480504.9387214,2024-01-17 17:35:04,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_96well
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705480507.9359121,2024-01-17 17:35:07,G2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T1_96well
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480513.3312073,2024-01-17 17:35:13,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_spotting on Deck6
+"D5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480513.331268,2024-01-17 17:35:13,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_spotting on Deck6
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480521.2016983,2024-01-17 17:35:21,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_spotting on Deck9
+"D5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480521.20176,2024-01-17 17:35:21,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_spotting on Deck9
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480527.7418745,2024-01-17 17:35:27,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_edge-spotting on Deck6
+"G3 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480527.7419362,2024-01-17 17:35:27,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_edge-spotting on Deck6
+"F2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480534.3217306,2024-01-17 17:35:34,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_edge-spotting on Deck9
+"G3 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480534.3217907,2024-01-17 17:35:34,F1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T1_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705480583.8736916,2024-01-17 17:36:23,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1668.6,1705480603.0349162,2024-01-17 17:36:43,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_RNAseq
+"C2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1668.6,1705480603.0349894,2024-01-17 17:36:43,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_RNAseq
+"C2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705480657.2857037,2024-01-17 17:37:37,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_RNAseq
+"C2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705480672.828563,2024-01-17 17:37:52,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_96well
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705480672.8286233,2024-01-17 17:37:52,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_96well
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705480675.9157887,2024-01-17 17:37:55,H2 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T1_96well
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480683.231245,2024-01-17 17:38:03,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_spotting on Deck6
+"E5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480683.2313063,2024-01-17 17:38:03,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_spotting on Deck6
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480691.0817738,2024-01-17 17:38:11,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_spotting on Deck9
+"E5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480691.0818367,2024-01-17 17:38:11,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_spotting on Deck9
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480697.6123712,2024-01-17 17:38:17,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_edge-spotting on Deck6
+"B4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480697.612437,2024-01-17 17:38:17,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_edge-spotting on Deck6
+"G2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480704.091941,2024-01-17 17:38:24,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_edge-spotting on Deck9
+"B4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480704.0920055,2024-01-17 17:38:24,G1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T1_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705480753.1838813,2024-01-17 17:39:13,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1558.4,1705480794.504793,2024-01-17 17:39:54,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_RNAseq
+"D2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1558.4,1705480794.50487,2024-01-17 17:39:54,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_RNAseq
+"D2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705480885.4460807,2024-01-17 17:41:25,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_RNAseq
+"D2 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705480923.1158519,2024-01-17 17:42:03,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_96well
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705480923.115947,2024-01-17 17:42:03,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_96well
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705480926.7357767,2024-01-17 17:42:06,A3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T1_96well
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480942.9615452,2024-01-17 17:42:22,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_spotting on Deck6
+"F5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480942.9616072,2024-01-17 17:42:22,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_spotting on Deck6
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480950.8519936,2024-01-17 17:42:30,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_spotting on Deck9
+"F5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480950.8520606,2024-01-17 17:42:30,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_spotting on Deck9
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480957.3920872,2024-01-17 17:42:37,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_edge-spotting on Deck6
+"G4 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705480957.3921509,2024-01-17 17:42:37,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_edge-spotting on Deck6
+"H2 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705480963.9621542,2024-01-17 17:42:43,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_edge-spotting on Deck9
+"G4 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705480963.9622164,2024-01-17 17:42:43,H1 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T1_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481013.3741903,2024-01-17 17:43:33,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1714.3,1705481025.3247945,2024-01-17 17:43:45,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_RNAseq
+"A3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1714.3,1705481025.3248727,2024-01-17 17:43:45,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_RNAseq
+"A3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481067.2358675,2024-01-17 17:44:27,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_RNAseq
+"A3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481075.619858,2024-01-17 17:44:35,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_96well
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481075.619921,2024-01-17 17:44:35,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_96well
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481078.6856863,2024-01-17 17:44:38,B3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T2_96well
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481083.371292,2024-01-17 17:44:43,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_spotting on Deck6
+"C6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481083.3713553,2024-01-17 17:44:43,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_spotting on Deck6
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481091.3218362,2024-01-17 17:44:51,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_spotting on Deck9
+"C6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481091.3219006,2024-01-17 17:44:51,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_spotting on Deck9
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481097.9725769,2024-01-17 17:44:57,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_edge-spotting on Deck6
+"B5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481097.9726436,2024-01-17 17:44:57,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_edge-spotting on Deck6
+"A3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481104.5917609,2024-01-17 17:45:04,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_edge-spotting on Deck9
+"B5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481104.591823,2024-01-17 17:45:04,A2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T2_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481153.8337839,2024-01-17 17:45:53,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705481167.9446867,2024-01-17 17:46:07,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_RNAseq
+"B3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705481167.9447613,2024-01-17 17:46:07,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_RNAseq
+"B3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481213.3194983,2024-01-17 17:46:53,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_RNAseq
+"B3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481223.8290827,2024-01-17 17:47:03,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_96well
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481223.8291438,2024-01-17 17:47:03,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_96well
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481226.9256644,2024-01-17 17:47:06,C3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T2_96well
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481232.3013945,2024-01-17 17:47:12,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_spotting on Deck6
+"D6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481232.3014565,2024-01-17 17:47:12,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_spotting on Deck6
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481240.221768,2024-01-17 17:47:20,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_spotting on Deck9
+"D6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481240.2218304,2024-01-17 17:47:20,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_spotting on Deck9
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481246.8716486,2024-01-17 17:47:26,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_edge-spotting on Deck6
+"G5 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481246.8717093,2024-01-17 17:47:26,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_edge-spotting on Deck6
+"B3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481253.5819879,2024-01-17 17:47:33,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_edge-spotting on Deck9
+"G5 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481253.5820496,2024-01-17 17:47:33,B2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T2_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481303.2636204,2024-01-17 17:48:23,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705481322.4044504,2024-01-17 17:48:42,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_RNAseq
+"C3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705481322.4045258,2024-01-17 17:48:42,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_RNAseq
+"C3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481377.1258397,2024-01-17 17:49:37,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_RNAseq
+"C3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481392.658712,2024-01-17 17:49:52,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_96well
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481392.6587744,2024-01-17 17:49:52,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_96well
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481395.835888,2024-01-17 17:49:55,D3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T2_96well
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481403.1413796,2024-01-17 17:50:03,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_spotting on Deck6
+"E6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481403.141443,2024-01-17 17:50:03,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_spotting on Deck6
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481411.061781,2024-01-17 17:50:11,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_spotting on Deck9
+"E6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481411.061841,2024-01-17 17:50:11,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_spotting on Deck9
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481417.7118368,2024-01-17 17:50:17,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_edge-spotting on Deck6
+"B6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481417.7118986,2024-01-17 17:50:17,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_edge-spotting on Deck6
+"C3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481424.3017795,2024-01-17 17:50:24,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_edge-spotting on Deck9
+"B6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481424.3018398,2024-01-17 17:50:24,C2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T2_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481473.6340852,2024-01-17 17:51:13,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1664.7,1705481514.9547014,2024-01-17 17:51:54,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_RNAseq
+"D3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1664.7,1705481514.9547772,2024-01-17 17:51:54,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_RNAseq
+"D3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481610.7956905,2024-01-17 17:53:30,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_RNAseq
+"D3 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481648.4587095,2024-01-17 17:54:08,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_96well
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481648.45877,2024-01-17 17:54:08,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_96well
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481652.1658375,2024-01-17 17:54:12,E3 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T2_96well
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481668.3913515,2024-01-17 17:54:28,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_spotting on Deck6
+"F6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481668.3914158,2024-01-17 17:54:28,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_spotting on Deck6
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481676.3117044,2024-01-17 17:54:36,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_spotting on Deck9
+"F6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481676.3117652,2024-01-17 17:54:36,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_spotting on Deck9
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481682.961857,2024-01-17 17:54:42,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_edge-spotting on Deck6
+"G6 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481682.9619179,2024-01-17 17:54:42,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_edge-spotting on Deck6
+"D3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481689.6428092,2024-01-17 17:54:49,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_edge-spotting on Deck9
+"G6 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481689.642877,2024-01-17 17:54:49,D2 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T2_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481739.2339716,2024-01-17 17:55:39,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1649.5,1705481751.2246156,2024-01-17 17:55:51,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_RNAseq
+"A4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1649.5,1705481751.2246933,2024-01-17 17:55:51,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_RNAseq
+"A4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481793.285796,2024-01-17 17:56:33,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_RNAseq
+"A4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481801.668619,2024-01-17 17:56:41,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_96well
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481801.6686792,2024-01-17 17:56:41,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_96well
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481804.635878,2024-01-17 17:56:44,F3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T2_96well
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481809.34139,2024-01-17 17:56:49,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_spotting on Deck6
+"C7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481809.3414545,2024-01-17 17:56:49,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_spotting on Deck6
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481817.1318266,2024-01-17 17:56:57,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_spotting on Deck9
+"C7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481817.1318889,2024-01-17 17:56:57,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_spotting on Deck9
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481823.701918,2024-01-17 17:57:03,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_edge-spotting on Deck6
+"B7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481823.7019787,2024-01-17 17:57:03,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_edge-spotting on Deck6
+"E3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481830.2520041,2024-01-17 17:57:10,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_edge-spotting on Deck9
+"B7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481830.2520666,2024-01-17 17:57:10,E2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T2_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705481879.6038406,2024-01-17 17:57:59,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1651.4,1705481893.7047439,2024-01-17 17:58:13,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_RNAseq
+"B4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1651.4,1705481893.704819,2024-01-17 17:58:13,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_RNAseq
+"B4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705481939.515764,2024-01-17 17:58:59,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_RNAseq
+"B4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705481950.0086904,2024-01-17 17:59:10,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_96well
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705481950.0087528,2024-01-17 17:59:10,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_96well
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705481953.0258498,2024-01-17 17:59:13,G3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T2_96well
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481958.4012623,2024-01-17 17:59:18,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_spotting on Deck6
+"D7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481958.4013264,2024-01-17 17:59:18,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_spotting on Deck6
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481966.2717474,2024-01-17 17:59:26,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_spotting on Deck9
+"D7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481966.271809,2024-01-17 17:59:26,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_spotting on Deck9
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481972.8417387,2024-01-17 17:59:32,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_edge-spotting on Deck6
+"G7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705481972.8418014,2024-01-17 17:59:32,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_edge-spotting on Deck6
+"F3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705481979.483726,2024-01-17 17:59:39,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_edge-spotting on Deck9
+"G7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705481979.4837906,2024-01-17 17:59:39,F2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T2_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482029.0839927,2024-01-17 18:00:29,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1668.6,1705482048.27488,2024-01-17 18:00:48,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_RNAseq
+"C4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1668.6,1705482048.2749538,2024-01-17 18:00:48,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_RNAseq
+"C4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705482103.655862,2024-01-17 18:01:43,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_RNAseq
+"C4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705482119.178788,2024-01-17 18:01:59,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_96well
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705482119.1788476,2024-01-17 18:01:59,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_96well
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705482122.2657695,2024-01-17 18:02:02,H3 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T2_96well
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482129.5813794,2024-01-17 18:02:09,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_spotting on Deck6
+"E7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482129.5814402,2024-01-17 18:02:09,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_spotting on Deck6
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482137.4620247,2024-01-17 18:02:17,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_spotting on Deck9
+"E7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482137.462086,2024-01-17 18:02:17,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_spotting on Deck9
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482144.0317109,2024-01-17 18:02:24,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_edge-spotting on Deck6
+"B8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482144.031773,2024-01-17 18:02:24,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_edge-spotting on Deck6
+"G3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482150.571947,2024-01-17 18:02:30,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_edge-spotting on Deck9
+"B8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482150.5720103,2024-01-17 18:02:30,G2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T2_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482199.7840428,2024-01-17 18:03:19,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1558.4,1705482241.084716,2024-01-17 18:04:01,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_RNAseq
+"D4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1558.4,1705482241.0847895,2024-01-17 18:04:01,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_RNAseq
+"D4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705482333.1358669,2024-01-17 18:05:33,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_RNAseq
+"D4 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705482370.7988315,2024-01-17 18:06:10,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_96well
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705482370.7988932,2024-01-17 18:06:10,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_96well
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705482374.4159017,2024-01-17 18:06:14,A4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T2_96well
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482390.6514978,2024-01-17 18:06:30,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_spotting on Deck6
+"F7 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482390.6515582,2024-01-17 18:06:30,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_spotting on Deck6
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482398.5120332,2024-01-17 18:06:38,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_spotting on Deck9
+"F7 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482398.5120964,2024-01-17 18:06:38,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_spotting on Deck9
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482405.0916536,2024-01-17 18:06:45,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_edge-spotting on Deck6
+"G8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482405.091716,2024-01-17 18:06:45,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_edge-spotting on Deck6
+"H3 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482411.7017448,2024-01-17 18:06:51,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_edge-spotting on Deck9
+"G8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482411.7018073,2024-01-17 18:06:51,H2 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T2_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482461.1638384,2024-01-17 18:07:41,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1714.3,1705482473.1147585,2024-01-17 18:07:53,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_RNAseq
+"A5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1714.3,1705482473.1148348,2024-01-17 18:07:53,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_RNAseq
+"A5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705482516.1456873,2024-01-17 18:08:36,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_RNAseq
+"A5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705482524.538817,2024-01-17 18:08:44,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_96well
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705482524.5388784,2024-01-17 18:08:44,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_96well
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705482527.6255035,2024-01-17 18:08:47,B4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S4_T3_96well
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482532.3114903,2024-01-17 18:08:52,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_spotting on Deck6
+"C8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482532.3115516,2024-01-17 18:08:52,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_spotting on Deck6
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482540.1919832,2024-01-17 18:09:00,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_spotting on Deck9
+"C8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482540.1920497,2024-01-17 18:09:00,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_spotting on Deck9
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482546.8717797,2024-01-17 18:09:06,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_edge-spotting on Deck6
+"B9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482546.8718405,2024-01-17 18:09:06,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_edge-spotting on Deck6
+"A4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482553.5526695,2024-01-17 18:09:13,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_edge-spotting on Deck9
+"B9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482553.5527308,2024-01-17 18:09:13,A3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S4_T3_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482602.8745124,2024-01-17 18:10:02,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705482616.9647176,2024-01-17 18:10:16,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_RNAseq
+"B5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705482616.9647903,2024-01-17 18:10:16,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_RNAseq
+"B5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705482663.4259672,2024-01-17 18:11:03,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_RNAseq
+"B5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705482673.9300797,2024-01-17 18:11:13,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_96well
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705482673.9301414,2024-01-17 18:11:13,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_96well
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705482677.0458064,2024-01-17 18:11:17,C4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S3_T3_96well
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482682.4313588,2024-01-17 18:11:22,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_spotting on Deck6
+"D8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482682.431425,2024-01-17 18:11:22,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_spotting on Deck6
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482690.4021082,2024-01-17 18:11:30,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_spotting on Deck9
+"D8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482690.4021697,2024-01-17 18:11:30,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_spotting on Deck9
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482697.0825717,2024-01-17 18:11:37,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_edge-spotting on Deck6
+"G9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482697.0826337,2024-01-17 18:11:37,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_edge-spotting on Deck6
+"B4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482703.8421094,2024-01-17 18:11:43,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_edge-spotting on Deck9
+"G9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482703.8421745,2024-01-17 18:11:43,B3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S3_T3_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482753.5436234,2024-01-17 18:12:33,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1662.8,1705482772.694766,2024-01-17 18:12:52,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_RNAseq
+"C5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1662.8,1705482772.6948407,2024-01-17 18:12:52,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_RNAseq
+"C5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705482828.5157597,2024-01-17 18:13:48,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_RNAseq
+"C5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705482844.038424,2024-01-17 18:14:04,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_96well
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705482844.0384848,2024-01-17 18:14:04,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_96well
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705482847.2259278,2024-01-17 18:14:07,D4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S2_T3_96well
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482854.5418286,2024-01-17 18:14:14,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_spotting on Deck6
+"E8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482854.5418913,2024-01-17 18:14:14,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_spotting on Deck6
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482862.481855,2024-01-17 18:14:22,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_spotting on Deck9
+"E8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482862.481917,2024-01-17 18:14:22,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_spotting on Deck9
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482869.1617138,2024-01-17 18:14:29,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_edge-spotting on Deck6
+"B10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705482869.161775,2024-01-17 18:14:29,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_edge-spotting on Deck6
+"C4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705482875.823847,2024-01-17 18:14:35,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_edge-spotting on Deck9
+"B10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705482875.8239105,2024-01-17 18:14:35,C3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S2_T3_edge-spotting on Deck9
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705482925.1939092,2024-01-17 18:15:25,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_RNAseq
+"A4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1664.7,1705482966.4948416,2024-01-17 18:16:06,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_RNAseq
+"D5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1664.7,1705482966.4949148,2024-01-17 18:16:06,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_RNAseq
+"D5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705483063.4357605,2024-01-17 18:17:43,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_RNAseq
+"D5 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705483101.098447,2024-01-17 18:18:21,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_96well
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705483101.0985107,2024-01-17 18:18:21,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_96well
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705483104.8156514,2024-01-17 18:18:24,E4 of Opentrons 96 Tip Rack 300 µL on 4,B1_S1_T3_96well
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483121.0313003,2024-01-17 18:18:41,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_spotting on Deck6
+"F8 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483121.031361,2024-01-17 18:18:41,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_spotting on Deck6
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483128.9817963,2024-01-17 18:18:48,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_spotting on Deck9
+"F8 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483128.9818575,2024-01-17 18:18:48,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_spotting on Deck9
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483135.6718996,2024-01-17 18:18:55,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_edge-spotting on Deck6
+"C10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483135.6719632,2024-01-17 18:18:55,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_edge-spotting on Deck6
+"D4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483142.3217938,2024-01-17 18:19:02,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_edge-spotting on Deck9
+"C10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483142.3218548,2024-01-17 18:19:02,D3 of Opentrons 96 Tip Rack 20 µL on 5,B1_S1_T3_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705483191.813781,2024-01-17 18:19:51,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1649.5,1705483203.7748249,2024-01-17 18:20:03,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_RNAseq
+"A6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1649.5,1705483203.7749012,2024-01-17 18:20:03,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_RNAseq
+"A6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705483246.9857826,2024-01-17 18:20:46,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_RNAseq
+"A6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705483255.3702064,2024-01-17 18:20:55,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_96well
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705483255.3702679,2024-01-17 18:20:55,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_96well
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705483258.355828,2024-01-17 18:20:58,F4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S4_T3_96well
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483263.0513875,2024-01-17 18:21:03,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_spotting on Deck6
+"C9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483263.0514503,2024-01-17 18:21:03,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_spotting on Deck6
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483270.9219105,2024-01-17 18:21:10,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_spotting on Deck9
+"C9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483270.9219792,2024-01-17 18:21:10,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_spotting on Deck9
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483277.5519443,2024-01-17 18:21:17,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_edge-spotting on Deck6
+"D10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483277.5520086,2024-01-17 18:21:17,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_edge-spotting on Deck6
+"E4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483284.2018332,2024-01-17 18:21:24,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_edge-spotting on Deck9
+"D10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483284.2018957,2024-01-17 18:21:24,E3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S4_T3_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705483333.704169,2024-01-17 18:22:13,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1651.4,1705483347.804751,2024-01-17 18:22:27,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_RNAseq
+"B6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1651.4,1705483347.804825,2024-01-17 18:22:27,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_RNAseq
+"B6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705483394.7558196,2024-01-17 18:23:14,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_RNAseq
+"B6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705483405.2589817,2024-01-17 18:23:25,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_96well
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705483405.259042,2024-01-17 18:23:25,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_96well
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705483408.2760816,2024-01-17 18:23:28,G4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S3_T3_96well
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483413.6713927,2024-01-17 18:23:33,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_spotting on Deck6
+"D9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483413.6714547,2024-01-17 18:23:33,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_spotting on Deck6
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483421.5734124,2024-01-17 18:23:41,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_spotting on Deck9
+"D9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483421.5734768,2024-01-17 18:23:41,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_spotting on Deck9
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483428.1817777,2024-01-17 18:23:48,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_edge-spotting on Deck6
+"E10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483428.1818397,2024-01-17 18:23:48,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_edge-spotting on Deck6
+"F4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483434.8317177,2024-01-17 18:23:54,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_edge-spotting on Deck9
+"E10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483434.8317785,2024-01-17 18:23:54,F3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S3_T3_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705483484.3037694,2024-01-17 18:24:44,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1668.6,1705483503.4547389,2024-01-17 18:25:03,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_RNAseq
+"C6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1668.6,1705483503.4548147,2024-01-17 18:25:03,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_RNAseq
+"C6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705483559.8858361,2024-01-17 18:25:59,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_RNAseq
+"C6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705483575.4186487,2024-01-17 18:26:15,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_96well
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705483575.4187088,2024-01-17 18:26:15,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_96well
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705483578.5358882,2024-01-17 18:26:18,H4 of Opentrons 96 Tip Rack 300 µL on 4,B2_S2_T3_96well
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483585.8412716,2024-01-17 18:26:25,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_spotting on Deck6
+"E9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483585.8413343,2024-01-17 18:26:25,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_spotting on Deck6
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483593.741803,2024-01-17 18:26:33,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_spotting on Deck9
+"E9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483593.7418635,2024-01-17 18:26:33,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_spotting on Deck9
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483600.351975,2024-01-17 18:26:40,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_edge-spotting on Deck6
+"F10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483600.3520367,2024-01-17 18:26:40,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_edge-spotting on Deck6
+"G4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483606.992116,2024-01-17 18:26:46,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_edge-spotting on Deck9
+"F10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483606.9921792,2024-01-17 18:26:46,G3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S2_T3_edge-spotting on Deck9
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",mix,300,1705483656.4238322,2024-01-17 18:27:36,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_RNAseq
+"B4 of Opentrons 10 Tube Rack with Falcon 4x50 mL, 6x15 mL Conical on 7",source,1558.4,1705483697.744792,2024-01-17 18:28:17,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_RNAseq
+"D6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",dest,1558.4,1705483697.7448673,2024-01-17 18:28:17,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_RNAseq
+"D6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",mix,300,1705483790.8658974,2024-01-17 18:29:50,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_RNAseq
+"D6 of Opentrons 24 Tube Rack with NEST 2 mL Screwcap on 8",source,20,1705483828.5299659,2024-01-17 18:30:28,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_96well
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",dest,20,1705483828.530031,2024-01-17 18:30:28,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_96well
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",mix,120,1705483832.1758723,2024-01-17 18:30:32,A5 of Opentrons 96 Tip Rack 300 µL on 4,B2_S1_T3_96well
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483848.381303,2024-01-17 18:30:48,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_spotting on Deck6
+"F9 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483848.381365,2024-01-17 18:30:48,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_spotting on Deck6
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483856.1918457,2024-01-17 18:30:56,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_spotting on Deck9
+"F9 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483856.1919074,2024-01-17 18:30:56,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_spotting on Deck9
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483862.8018248,2024-01-17 18:31:02,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_edge-spotting on Deck6
+"G10 of TGC yeast spot assay with microplate 8x12 on 6",dest,2,1705483862.8018873,2024-01-17 18:31:02,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_edge-spotting on Deck6
+"H4 of Corning 96 Well Plate 360 µL Flat on Transportation Unit ver2 on 11",source,2,1705483869.4620314,2024-01-17 18:31:09,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_edge-spotting on Deck9
+"G10 of TGC yeast spot assay with microplate 8x12 on 9",dest,2,1705483869.462094,2024-01-17 18:31:09,H3 of Opentrons 96 Tip Rack 20 µL on 5,B2_S1_T3_edge-spotting on Deck9

@@ -1,0 +1,84 @@
+---
+title: "Report"
+format:
+  html:
+    standalone: true
+    embed-resources: true
+editor: visual
+---
+
+```{r}
+#| message: false
+#| fig-width: 10
+library(targets)
+library(tidyverse)
+```
+
+## MDS
+
+```{r}
+tar_read(MDS) %>% head()
+```
+
+### MDS plot
+
+```{r}
+tar_read(MDSScatter)
+```
+
+## Inter-sample correlation
+
+```{r}
+tar_read(correlation) %>% head()
+```
+
+### Heat map
+
+```{r}
+#| fig-width: 10
+#| fig-height: 8
+tar_read(cor_heatmap)
+```
+
+## 1D DEG
+
+### Result
+
+```{r}
+tar_read(result_GLM) %>% head()
+```
+
+### Histogram for FDR
+
+```{r}
+tar_read(FDR_hist_GLM)
+```
+
+### logFC vs. FDR
+
+```{r}
+nr <- tar_read(result_GLM) %>% nrow()
+tar_read(result_GLM) %>%
+pivot_longer(., starts_with("logFC"), names_to = "type", values_to = "logFC") %>%
+      ggplot(aes(x = logFC, y = -log10(FDR))) +
+      geom_point(aes(color = FDR < 0.01), size = 0.5, alpha = 0.6) +
+      facet_wrap(~type) +
+      theme_bw() +
+      ggtitle(sprintf("N_gene=%d", nr)) +
+      #labs(title = sprintf("N_gene=%d", nrow(.))) +
+      theme(title = element_text(size = 10))
+```
+
+## 2-way ANOVA
+
+### Result
+
+```{r}
+tar_read(result_2wayANOVA) %>% head()
+```
+
+### Histogram for FDR
+
+```{r}
+tar_read(FDR_hist_2wayANOVA)
+```

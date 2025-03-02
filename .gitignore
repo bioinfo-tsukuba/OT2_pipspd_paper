@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+.DS_Store
+.venv
+.env
+__pycache__
+.venv_OT2
+OT2_yeast.code-workspace
+.Rproj.user
+.vscode
+.conda

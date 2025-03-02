@@ -1,0 +1,187 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1",
+            "C1"
+        ],
+        [
+            "A2",
+            "B2",
+            "C2"
+        ],
+        [
+            "A3",
+            "B3",
+            "C3"
+        ],
+        [
+            "A4",
+            "B4",
+            "C4"
+        ]
+    ],
+    "brand": {
+        "brand": "Thermo Scientific",
+        "brandId": [
+            "150628"
+        ]
+    },
+    "metadata": {
+        "displayName": "Thermo Scientific 12 Well Plate 2000 µL",
+        "displayCategory": "wellPlate",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 127.76,
+        "yDimension": 85.47,
+        "zDimension": 18.9
+    },
+    "wells": {
+        "A1": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 23.5,
+            "y": 69.47,
+            "z": 3.2
+        },
+        "B1": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 23.5,
+            "y": 42.47,
+            "z": 3.2
+        },
+        "C1": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 23.5,
+            "y": 15.47,
+            "z": 3.2
+        },
+        "A2": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 50.5,
+            "y": 69.47,
+            "z": 3.2
+        },
+        "B2": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 50.5,
+            "y": 42.47,
+            "z": 3.2
+        },
+        "C2": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 50.5,
+            "y": 15.47,
+            "z": 3.2
+        },
+        "A3": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 77.5,
+            "y": 69.47,
+            "z": 3.2
+        },
+        "B3": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 77.5,
+            "y": 42.47,
+            "z": 3.2
+        },
+        "C3": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 77.5,
+            "y": 15.47,
+            "z": 3.2
+        },
+        "A4": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 104.5,
+            "y": 69.47,
+            "z": 3.2
+        },
+        "B4": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 104.5,
+            "y": 42.47,
+            "z": 3.2
+        },
+        "C4": {
+            "depth": 15.7,
+            "totalLiquidVolume": 2000,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 104.5,
+            "y": 15.47,
+            "z": 3.2
+        }
+    },
+    "groups": [
+        {
+            "metadata": {
+                "wellBottomShape": "flat"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "C1",
+                "A2",
+                "B2",
+                "C2",
+                "A3",
+                "B3",
+                "C3",
+                "A4",
+                "B4",
+                "C4"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "thermoscientific_12_wellplate_2000ul"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}

@@ -1,0 +1,132 @@
+---
+title: "Integrated analysis"
+output: md_document
+date: "2024-05-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+# 2つのプレートのqfa結果を統合
+
+```{r}
+plate1 <- read_csv("../baQFA_plate1/colony_analysis/with_qfa.csv") %>%
+  mutate(plate_id = "Plate 1")
+plate2 <- read_csv("../baQFA_plate2/colony_analysis/with_qfa.csv") %>%
+  mutate(plate_id = "Plate 2")
+integrated_qfa <- bind_rows(plate1, plate2) %>%
+  mutate(plate_id = as.factor(plate_id)) %>%
+  mutate(speed=as.factor(speed)) %>%
+  mutate(biorep=as.factor(biorep))
+write_csv(integrated_qfa, file = "integrated_qfa.csv")
+```
+
+
+# Relationship with yeast volume
+
+## Load data
+```{r}
+yeast_vol <- read_csv("nanodrop_results.csv") %>%
+  mutate(speed = substr(Speed, 2,2) %>% as.numeric()) %>%
+  mutate(speed = case_when(
+    speed == 4 ~ 290,
+    speed == 3 ~ 210,
+    speed == 2 ~ 130,
+    speed == 1 ~ 50
+  ))  %>%
+  mutate(biorep = substr(BiologicalReplicates, 2,2) %>% as.numeric()) %>%
+  mutate(techrep = substr(TechnicalReplicate, 2,2) %>% as.numeric()) %>%
+  select(speed, biorep, techrep, Nanodrop)
+```
+## integrate with qfa data
+
+
+# speedとnrの関係
+log変換をしてから平滑化→差分をとっている。
+
+```{r}
+integrated_qfa %>%
+  ggplot(aes(x=speed, y=nr, shape=biorep, color=speed)) +
+  geom_point() +
+  scale_color_manual(
+      values = c(
+        "#afeeee",
+        "#00bfff",
+        "#0000ff",
+        "#191970"
+      )
+    ) +
+  xlab("Pipetting speed") +
+  ylab("Max slope") +
+  facet_grid(plate_id ~ ., scale="free_y", switch="y") +
+  theme_bw() +
+  theme(
+    aspect.ratio = (1/3),
+    strip.placement = "outside",
+        strip.switch.pad.grid = unit(1, "cm"),
+        axis.title.y = element_text(vjust = -15)
+    )
+
+plot_integrated_log_scaled <- integrated_qfa %>%
+  ggplot(aes(x=speed, y=nr)) +
+  geom_boxplot(outliers = FALSE) +
+  geom_jitter(aes(shape=biorep), width = 0.2) +
+  xlab("Pipetting speed") +
+  ylab("Maximum relative growth rate") +
+  labs(shape="Biological\n replicate") +
+  facet_grid(. ~ plate_id, scale="free_y", switch="y") +
+  theme_bw() +
+  theme(
+    #text = element_text(size=10),
+    plot.margin= unit(c(2,0, 2, 0), "mm"),
+    #aspect.ratio = (1/3),
+    strip.placement = "outside",
+    strip.switch.pad.grid = unit(1, "cm"),
+    axis.title.y = element_text(size = 14, vjust = 1),
+     plot.background = element_blank(),
+    legend.background = element_blank(),
+    strip.background = element_blank(),
+     axis.title.x = element_text(size = 14),       # X軸タイトルのフォントサイズ
+    axis.text.x = element_text(size = 12, color="black"),        # X軸ラベルのフォントサイズ
+    axis.text.y = element_text(size = 12, color="black"),        # Y軸ラベルのフォントサイズ
+    legend.title = element_text(size = 13),       # 凡例タイトルのフォントサイズ
+    legend.text = element_text(size = 11),        # 凡例ラベルのフォントサイズ
+    plot.title = element_text(size = 16, hjust = 0.5)  # プロットタイトルのフォントサイズと中央寄せ
+  )
+print(plot_integrated_log_scaled)
+ggsave(plot = plot_integrated_log_scaled, width = 576/72, height = 206/72, filename = "plot_integrated_log_scaled.svg")
+```
+
+## nrを使用・plate間normalizationのみにする（差分でnormalize & elapsed_time入れる）
+```{r}
+integrated_qfa %>%
+  select(biorep, speed, agarPlate, nr) %>%
+  rename(spotting_time=agarPlate)
+
+row_medians_nr <- integrated_qfa %>%
+  select(row, col, plate_id, nr) %>%
+  group_by(row, plate_id) %>%
+  summarise(med = median(nr)) %>%
+  ungroup()
+
+plate_medians_nr <- integrated_qfa %>%
+  select(row, col, plate_id, nr) %>%
+  group_by(plate_id) %>%
+  summarise(med = median(nr)) %>%
+  ungroup() %>%
+  arrange(plate_id)
+plate_median_scales_nr <- plate_medians_nr %>% mutate(plate_med_scale_nr = med - med[1]) %>% select(-med)
+
+integrated_qfa_scaled <- integrated_qfa %>%
+  full_join(plate_median_scales_nr) %>%
+  mutate(normalized_max_slope_nr=nr - plate_med_scale_nr)
+
+anova(lm(normalized_max_slope_nr ~ biorep * speed * elapsed_time, data=integrated_qfa_scaled %>%
+
+rename("spottingTime"=agarPlate)))
+```
