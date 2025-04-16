@@ -125,9 +125,7 @@ def transfer_with_timestamp(
             mix_before[1],
             remark
         )
-        # pipetting_record.append(
-        #     PipettingRecord(pipette, source, 'mix', mix_before[1], remark)
-        # )
+
         for i in range(mix_before[0]):
             pipette.mix(1, mix_before[1], source)
 
@@ -138,9 +136,6 @@ def transfer_with_timestamp(
         volume,
         remark
     )
-    # pipetting_record.append(
-    #     PipettingRecord(pipette, source, 'source', volume, remark)
-    # )
     pipetting_record.append_dest(
         pipette,
         dest,
@@ -148,9 +143,6 @@ def transfer_with_timestamp(
         remark
     )
 
-    # pipetting_record.append(
-    #     PipettingRecord(pipette, dest, 'dest', volume, remark)
-    # )
     pipette.transfer(volume, source, dest, new_tip='never')
 
     # post-transfering mixing
@@ -162,9 +154,6 @@ def transfer_with_timestamp(
             mix_after[1],
             remark
         )
-        # pipetting_record.append(
-        #     PipettingRecord(pipette, dest, 'mix', mix_after[1], remark)
-        # )
         for i in range(mix_after[0]):
             pipette.mix(1, mix_after[1], dest)
 
@@ -239,11 +228,7 @@ def run(protocol: protocol_api.ProtocolContext):
     WATER_POSITION = 'B3'
     TIP300_FIRST_TIP = 'A2'
     TIP20_FIRST_TIP = 'A1'
-    # flow rate: [speed1, speed2, speed3, speed4]
     PIPETTE_FLOW_RATE = [50, 130, 210, 290]
-    # PIPETTE_FLOW_RATE = [290, 290, 290, 290]
-    # MIX_VOLUME = 200
-    # MIX_TIMES = 3
 
     # load dilution recipe
     dilution_recipe = pd.read_csv(
@@ -268,7 +253,6 @@ def run(protocol: protocol_api.ProtocolContext):
     # Config about spotting
     SPOT_SPEED = 50
     SPOT_VOLUME = 2
-    # SPOT_HEIGHT = agar_height_from_weight('./agar_plate_weight.csv')
     SPOT_HEIGHT_6 = agar_height_from_weight('./agar_plate_weight.csv', 6)
     SPOT_HEIGHT_9 = agar_height_from_weight('./agar_plate_weight.csv', 9)
 
@@ -303,9 +287,6 @@ def run(protocol: protocol_api.ProtocolContext):
     )
 
     # Agar plate for spot-assay
-    # agar_plate = protocol.load_labware_from_definition(def_petri_dish, 9)
-    ## agar_plate_6 = protocol.load_labware_from_definition(def_petri_dish, 6)
-    ## agar_plate_9 = protocol.load_labware_from_definition(def_petri_dish, 9)
     agar_plate_6 = protocol.load_labware_from_definition(def_microplate, 6)
     agar_plate_9 = protocol.load_labware_from_definition(def_microplate, 9)
 

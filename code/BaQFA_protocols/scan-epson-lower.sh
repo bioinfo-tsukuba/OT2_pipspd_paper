@@ -18,10 +18,7 @@ while :
 do
  counter_p=$(printf "%03d" $counter)
  echo $counter_p time epson-lower
- # tmptime=$(date "+%s")
  nowtime=$(date "+%Y-%m-%d_%H-%M-%S")
- #expr \($tmptime - $ymdhmsforcalc\) / 60
- # min=$(echo $(((tmptime-ymdhmsforcalc)/60)))
  
  # mirrorはnoにしているのは、Pythonでの解析時にflipするから
  scanimage --device "epson2:libusb:001:005" --resolution 600 --mode Gray --format=tiff --mirror=no > QFA${unixtime}_${nowtime}.tiff &

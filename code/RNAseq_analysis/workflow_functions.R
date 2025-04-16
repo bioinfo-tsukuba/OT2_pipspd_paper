@@ -151,9 +151,6 @@ run2wayANOVA <- function(count, meta) {
 plotScatter_export <- function(df, x, y, dir_name) {
   df_rm0 <- df[(df[x] != 0 & df[y] != 0),]
   correlation <- cor(df[x], df[y])
-  #correlation <- cor(df_rm0[x], df_rm0[y])
-  #correlation <- cor(log10(df_rm0[x]), log10(df_rm0[y]))
   p <- ggplot(df_rm0, aes(x=!!sym(x), y=!!sym(y))) + geom_point(size=1) + ggtitle(str_c(x, " vs. ", y,  ": r = ", correlation)) + scale_x_log10() + scale_y_log10() + theme(aspect.ratio = 1)
   ggsave(str_c(dir_name, x, '_', y, '.png'), p)
-  #print(p)
 }

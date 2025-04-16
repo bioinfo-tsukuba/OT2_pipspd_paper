@@ -42,16 +42,6 @@ timeTable <- merged_log %>%
   rename(volume=volume_source) %>%
   select(-volume_dest)
 
-# timeTable <- merged_log %>%
-#   filter(operation != "mix") %>%
-#   rowid_to_column("id") %>% mutate(id=(id+1) %/% 2) %>%
-#   pivot_wider(
-#     id_cols = id,
-#     names_from = operation,
-#     values_from = c(deck, well_id, elapsed_time, volume)
-#   ) %>%
-#   rename(volume=volume_source) %>%
-#   select(-volume_dest)
 
 timeTableForGraph <- timeTable %>%
   mutate(
@@ -59,7 +49,6 @@ timeTableForGraph <- timeTable %>%
     to=str_c(deck_dest, "_", well_id_dest)
   ) %>%
   select(id, from, to, elapsed_time_source)# %>%
-  #tidygraph::as_tbl_graph(directed = TRUE, weighted=elapsed_time_source)
 
 # extract last action of each operation for each well
 last_operation <- merged_log %>%
@@ -102,7 +91,6 @@ formatTime <- function(agarPlateWell) {
     mutate(agarPlateWell = agarPlateWell)
 }
 
-#well_vec <- c("A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4", "D1", "D2", "D3", "D4", "E1", "E2", "E3", "E4")
 well_vec <- wellAnnotation %>% pull(name) %>% unique()
 rettib <- tibble()
 for(well in well_vec) {rettib <- rettib %>% bind_rows(formatTime(well))}
@@ -131,8 +119,7 @@ with_qfa <- read_tsv("GmpFit.tsv") %>%
 
 
 ggplot(with_qfa, aes(x=agarPlate, y=nr, color=-1 * speed, shape=as_factor(biorep))) +
-  geom_point()# +
-  #xlim(0, 150)
+  geom_point()
 
 ggplot(with_qfa, aes(x=as_factor(biorep), y=maxslp_t)) + geom_boxplot() +
   geom_signif(comparisons = list(c("1", "2")))
@@ -140,8 +127,7 @@ ggplot(with_qfa, aes(x=as_factor(biorep), y=maxslp_t)) + geom_boxplot() +
 ggplot(with_qfa, aes(x=as_factor(biorep), y=maxslp_t)) + geom_boxplot() +
   geom_signif(comparisons = list(c("1", "2")), map_signif_level = TRUE, textsize = 6)
 
-ggplot(with_qfa, aes(x=as_factor(speed), y=maxslp_t)) + geom_boxplot()# +
-    #geom_signif(comparisons = list(c("1", "2"), c("1", "3")), map_signif_level = TRUE, textsize = 6)
+ggplot(with_qfa, aes(x=as_factor(speed), y=maxslp_t)) + geom_boxplot()
 
 ggplot(with_qfa %>% filter(biorep == 1), aes(x=as_factor(speed), y=maxslp)) + geom_boxplot()
 ggplot(with_qfa %>% filter(biorep == 2), aes(x=as_factor(speed), y=maxslp)) + geom_boxplot()

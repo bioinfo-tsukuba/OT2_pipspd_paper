@@ -125,9 +125,6 @@ def transfer_with_timestamp(
             mix_before[1],
             remark
         )
-        # pipetting_record.append(
-        #     PipettingRecord(pipette, source, 'mix', mix_before[1], remark)
-        # )
         for i in range(mix_before[0]):
             pipette.mix(1, mix_before[1], source)
 
@@ -138,19 +135,12 @@ def transfer_with_timestamp(
         volume,
         remark
     )
-    # pipetting_record.append(
-    #     PipettingRecord(pipette, source, 'source', volume, remark)
-    # )
     pipetting_record.append_dest(
         pipette,
         dest,
         volume,
         remark
     )
-
-    # pipetting_record.append(
-    #     PipettingRecord(pipette, dest, 'dest', volume, remark)
-    # )
     pipette.transfer(volume, source, dest, new_tip='never')
 
     # post-transfering mixing
@@ -162,9 +152,6 @@ def transfer_with_timestamp(
             mix_after[1],
             remark
         )
-        # pipetting_record.append(
-        #     PipettingRecord(pipette, dest, 'mix', mix_after[1], remark)
-        # )
         for i in range(mix_after[0]):
             pipette.mix(1, mix_after[1], dest)
 
@@ -172,28 +159,6 @@ def transfer_with_timestamp(
         pipette.drop_tip()
 
 
-# This function is for calculation of agar height of round petri dish #################
-# So it is not used in this protocol　#################################################
-# def agar_height_from_weight(source_csv, deck_num):
-#     if (deck_num==6):
-#         value_loc = 0
-#     elif (deck_num==9):
-#         value_loc = 1
-#     # DISH_THICKNESS = 3  # mm
-#     DISH_THICKNESS = 2  # mm
-#     DISH_WEIGHT = 17.88
-#     AGAR_DENSITY = 0.00102  # g/mm^3
-#     DISH_DIAMETER = 86
-#     agar_plate_weight = pd.read_csv(source_csv, header=None)
-#     agar_plate_weight = agar_plate_weight.values[value_loc][1]
-#     agar_weight = agar_plate_weight - DISH_WEIGHT
-#     agar_height = round(
-#         agar_weight / ((math.pi * (DISH_DIAMETER / 2) ** 2) * AGAR_DENSITY), 1
-#     )  # calculate native agar height(cm)
-#     return agar_height + DISH_THICKNESS
-#     # agar_height_array.append(agar_height+3)  #plus the bottom thickness of
-#     # dish (3mm) and make array data for adapting some different dishes
-    
 # This function is for calculation of agar height of microplate 8x12 #################
 def agar_height_from_weight(source_csv, deck_num):
     if (deck_num==6):
