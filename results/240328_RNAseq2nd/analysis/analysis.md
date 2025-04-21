@@ -743,7 +743,7 @@
       tidyplot(x=pair_speed_type, y=PCC) %>%
       add_boxplot(show_outliers = FALSE) %>%
       add_data_points_beeswarm() %>%
-      add_test_pvalue() %>%
+      add_test_pvalue(method = "wilcox_test") %>%
       print()
 
 ![](analysis_files/figure-markdown_strict/unnamed-chunk-13-1.png)
@@ -752,7 +752,7 @@
       tidyplot(x=pair_biorep_type, y=PCC) %>%
       add_boxplot(show_outliers = FALSE) %>%
       add_data_points_beeswarm() %>%
-      add_test_pvalue() %>%
+      add_test_pvalue(method = "wilcox_test") %>%
       print()
 
 ![](analysis_files/figure-markdown_strict/unnamed-chunk-13-2.png)
