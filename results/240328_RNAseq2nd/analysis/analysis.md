@@ -6,6 +6,7 @@
     library(ComplexHeatmap)
     library(edgeR)
     library(circlize)
+    library(tidyplots)
 
 ## データ読込
 
@@ -717,6 +718,45 @@
     ## png 
     ##   2
 
+## ヒートマップの各セルを「サンプルペア」と呼ぶ。サンプルペア（行）に対して、サンプル１のIDを示す列、サンプル２のIDを示す列、相関係数を持つデータフレームにする
+
+    df_inter_sample_correlation <- inter_sample_correlation %>%
+      as.table() %>%
+      as.data.frame()
+    names(df_inter_sample_correlation) <- c("sample_1", "sample_2", "PCC")
+    df_inter_sample_correlation <- df_inter_sample_correlation %>% as_tibble() %>% filter(as.character(sample_1) < as.character(sample_2))
+
+### メタデータから、pipetting speedやbiorepが同一かを判定する
+
+    is_same_metadata <- function(metadata_source, sample_id_1, sample_id_2, metadata_name) {
+      record_1 <- metadata_source %>% filter(Sample == sample_id_1)
+      record_2 <- metadata_source %>% filter(Sample == sample_id_2)
+      return(record_1[[metadata_name]] == record_2[[metadata_name]])
+    }
+    is_same_metadata <- Vectorize(is_same_metadata, vectorize.args = c("sample_id_1", "sample_id_2"))
+
+    df_inter_sample_correlation_with_pair_type <- df_inter_sample_correlation %>%
+      mutate(pair_speed_type = is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed")) %>%
+      mutate(pair_biorep_type = is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"))
+
+    df_inter_sample_correlation_with_pair_type %>%
+      tidyplot(x=pair_speed_type, y=PCC) %>%
+      add_boxplot(show_outliers = FALSE) %>%
+      add_data_points_beeswarm() %>%
+      add_test_pvalue() %>%
+      print()
+
+![](analysis_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+
+    df_inter_sample_correlation_with_pair_type %>%
+      tidyplot(x=pair_biorep_type, y=PCC) %>%
+      add_boxplot(show_outliers = FALSE) %>%
+      add_data_points_beeswarm() %>%
+      add_test_pvalue() %>%
+      print()
+
+![](analysis_files/figure-markdown_strict/unnamed-chunk-13-2.png)
+
 ## 1D DEG
 
 ### DGEリスト・average log count を作る
@@ -768,7 +808,7 @@
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](analysis_files/figure-markdown_strict/unnamed-chunk-14-1.png)
+![](analysis_files/figure-markdown_strict/unnamed-chunk-16-1.png)
 
 ### FDR &lt; 0.1 でフィルタリング
 
@@ -796,7 +836,7 @@
           #labs(title = sprintf("N_gene=%d", nrow(.))) +
           theme(title = element_text(size = 10))
 
-![](analysis_files/figure-markdown_strict/unnamed-chunk-16-1.png)
+![](analysis_files/figure-markdown_strict/unnamed-chunk-18-1.png)
 
 #### logFCの種類別・logFCの符号別の遺伝子数
 
@@ -880,7 +920,7 @@ signが符号。1がプラス、-1がマイナス、0が0。
         )
     print(logFC_FDR_plot)
 
-![](analysis_files/figure-markdown_strict/unnamed-chunk-17-1.png)
+![](analysis_files/figure-markdown_strict/unnamed-chunk-19-1.png)
 
     ggsave("logFC_FDR_plot.svg", width = 250/72, height = 450/72, plot = logFC_FDR_plot)
 
@@ -949,7 +989,7 @@ signが符号。1がプラス、-1がマイナス、0が0。
     ## Warning: Removed 29 rows containing missing values or values outside the scale range
     ## (`geom_bar()`).
 
-![](analysis_files/figure-markdown_strict/unnamed-chunk-19-1.png)
+![](analysis_files/figure-markdown_strict/unnamed-chunk-21-1.png)
 
 ### FDR &lt; 0.1でフィルタリング
 
@@ -977,9 +1017,9 @@ signが符号。1がプラス、-1がマイナス、0が0。
 
     sessionInfo()
 
-    ## R version 4.4.1 (2024-06-14)
+    ## R version 4.4.3 (2025-02-28)
     ## Platform: x86_64-pc-linux-gnu
-    ## Running under: Ubuntu 22.04.4 LTS
+    ## Running under: Ubuntu 22.04.5 LTS
     ## 
     ## Matrix products: default
     ## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.10.0 
@@ -1001,34 +1041,38 @@ signが符号。1がプラス、-1がマイナス、0が0。
     ## [8] base     
     ## 
     ## other attached packages:
-    ##  [1] circlize_0.4.16       edgeR_4.1.31          limma_3.59.10        
-    ##  [4] ComplexHeatmap_2.19.0 ggrepel_0.9.5         svglite_2.1.3        
-    ##  [7] lubridate_1.9.3       forcats_1.0.0         stringr_1.5.1        
-    ## [10] dplyr_1.1.4           purrr_1.0.2           readr_2.1.5          
-    ## [13] tidyr_1.3.1           tibble_3.2.1          ggplot2_3.5.1        
-    ## [16] tidyverse_2.0.0      
+    ##  [1] tidyplots_0.2.2       circlize_0.4.16       edgeR_4.1.31         
+    ##  [4] limma_3.59.10         ComplexHeatmap_2.19.0 ggrepel_0.9.5        
+    ##  [7] svglite_2.1.3         lubridate_1.9.3       forcats_1.0.0        
+    ## [10] stringr_1.5.1         dplyr_1.1.4           purrr_1.0.2          
+    ## [13] readr_2.1.5           tidyr_1.3.1           tibble_3.2.1         
+    ## [16] ggplot2_3.5.1         tidyverse_2.0.0      
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] tidyselect_1.2.1    farver_2.1.1        fastmap_1.1.1      
-    ##  [4] digest_0.6.35       timechange_0.3.0    lifecycle_1.0.4    
-    ##  [7] cluster_2.1.6       statmod_1.5.0       magrittr_2.0.3     
-    ## [10] compiler_4.4.1      rlang_1.1.3         tools_4.4.1        
-    ## [13] utf8_1.2.4          yaml_2.3.8          knitr_1.46         
-    ## [16] labeling_0.4.3      bit_4.0.5           RColorBrewer_1.1-3 
-    ## [19] withr_3.0.0         BiocGenerics_0.49.1 stats4_4.4.1       
-    ## [22] fansi_1.0.6         colorspace_2.1-0    scales_1.3.0       
-    ## [25] iterators_1.0.14    cli_3.6.2           rmarkdown_2.26     
-    ## [28] crayon_1.5.2        ragg_1.3.0          generics_0.1.3     
-    ## [31] rstudioapi_0.16.0   tzdb_0.4.0          rjson_0.2.21       
-    ## [34] splines_4.4.1       parallel_4.4.1      matrixStats_1.3.0  
-    ## [37] vctrs_0.6.5         IRanges_2.37.1      hms_1.1.3          
-    ## [40] GetoptLong_1.0.5    S4Vectors_0.41.7    bit64_4.0.5        
-    ## [43] clue_0.3-65         systemfonts_1.0.6   magick_2.8.3       
-    ## [46] locfit_1.5-9.9      foreach_1.5.2       glue_1.7.0         
-    ## [49] codetools_0.2-19    stringi_1.8.3       shape_1.4.6.1      
-    ## [52] gtable_0.3.5        munsell_0.5.1       pillar_1.9.0       
-    ## [55] htmltools_0.5.8.1   R6_2.5.1            textshaping_0.3.7  
-    ## [58] doParallel_1.0.17   vroom_1.6.5         evaluate_0.23      
-    ## [61] lattice_0.22-5      highr_0.10          png_0.1-8          
-    ## [64] Rcpp_1.0.12         xfun_0.43           pkgconfig_2.0.3    
-    ## [67] GlobalOptions_0.1.2
+    ##  [1] tidyselect_1.2.1    vipor_0.4.7         farver_2.1.1       
+    ##  [4] fastmap_1.1.1       digest_0.6.35       timechange_0.3.0   
+    ##  [7] lifecycle_1.0.4     cluster_2.1.8.1     Cairo_1.6-2        
+    ## [10] statmod_1.5.0       magrittr_2.0.3      compiler_4.4.3     
+    ## [13] rlang_1.1.3         tools_4.4.3         utf8_1.2.4         
+    ## [16] yaml_2.3.8          ggsignif_0.6.4      knitr_1.46         
+    ## [19] labeling_0.4.3      bit_4.0.5           RColorBrewer_1.1-3 
+    ## [22] abind_1.4-5         withr_3.0.0         BiocGenerics_0.49.1
+    ## [25] stats4_4.4.3        fansi_1.0.6         ggpubr_0.6.0       
+    ## [28] colorspace_2.1-0    scales_1.3.0        iterators_1.0.14   
+    ## [31] cli_3.6.2           rmarkdown_2.27      crayon_1.5.2       
+    ## [34] ragg_1.3.0          generics_0.1.3      rstudioapi_0.16.0  
+    ## [37] tzdb_0.4.0          rjson_0.2.21        ggbeeswarm_0.7.2   
+    ## [40] splines_4.4.3       parallel_4.4.3      matrixStats_1.3.0  
+    ## [43] vctrs_0.6.5         carData_3.0-5       car_3.1-3          
+    ## [46] patchwork_1.2.0     IRanges_2.37.1      hms_1.1.3          
+    ## [49] GetoptLong_1.0.5    S4Vectors_0.41.7    rstatix_0.7.2      
+    ## [52] bit64_4.0.5         Formula_1.2-5       beeswarm_0.4.0     
+    ## [55] clue_0.3-65         magick_2.8.3        systemfonts_1.0.6  
+    ## [58] locfit_1.5-9.9      foreach_1.5.2       glue_1.7.0         
+    ## [61] codetools_0.2-19    stringi_1.8.3       shape_1.4.6.1      
+    ## [64] gtable_0.3.5        munsell_0.5.1       pillar_1.9.0       
+    ## [67] htmltools_0.5.8.1   R6_2.5.1            textshaping_0.3.7  
+    ## [70] doParallel_1.0.17   vroom_1.6.5         evaluate_0.23      
+    ## [73] lattice_0.22-5      highr_0.10          backports_1.4.1    
+    ## [76] png_0.1-8           broom_1.0.5         Rcpp_1.0.12        
+    ## [79] xfun_0.43           pkgconfig_2.0.3     GlobalOptions_0.1.2

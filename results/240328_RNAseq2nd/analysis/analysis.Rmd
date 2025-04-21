@@ -17,6 +17,7 @@ library(ggrepel)
 library(ComplexHeatmap)
 library(edgeR)
 library(circlize)
+library(tidyplots)
 ```
 
 ## データ読込
@@ -212,6 +213,44 @@ draw(heatmap,  heatmap_legend_side = "bottom", annotation_legend_side = "bottom"
 
 dev.off()
 ```
+
+## ヒートマップの各セルを「サンプルペア」と呼ぶ。サンプルペア（行）に対して、サンプル１のIDを示す列、サンプル２のIDを示す列、相関係数を持つデータフレームにする
+```{r}
+df_inter_sample_correlation <- inter_sample_correlation %>%
+  as.table() %>%
+  as.data.frame()
+names(df_inter_sample_correlation) <- c("sample_1", "sample_2", "PCC")
+df_inter_sample_correlation <- df_inter_sample_correlation %>% as_tibble() %>% filter(as.character(sample_1) < as.character(sample_2))
+```
+
+### メタデータから、pipetting speedやbiorepが同一かを判定する
+```{r}
+is_same_metadata <- function(metadata_source, sample_id_1, sample_id_2, metadata_name) {
+  record_1 <- metadata_source %>% filter(Sample == sample_id_1)
+  record_2 <- metadata_source %>% filter(Sample == sample_id_2)
+  return(record_1[[metadata_name]] == record_2[[metadata_name]])
+}
+is_same_metadata <- Vectorize(is_same_metadata, vectorize.args = c("sample_id_1", "sample_id_2"))
+
+df_inter_sample_correlation_with_pair_type <- df_inter_sample_correlation %>%
+  mutate(pair_speed_type = is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed")) %>%
+  mutate(pair_biorep_type = is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"))
+
+df_inter_sample_correlation_with_pair_type %>%
+  tidyplot(x=pair_speed_type, y=PCC) %>%
+  add_boxplot(show_outliers = FALSE) %>%
+  add_data_points_beeswarm() %>%
+  add_test_pvalue() %>%
+  print()
+
+df_inter_sample_correlation_with_pair_type %>%
+  tidyplot(x=pair_biorep_type, y=PCC) %>%
+  add_boxplot(show_outliers = FALSE) %>%
+  add_data_points_beeswarm() %>%
+  add_test_pvalue() %>%
+  print()
+```
+
 
 ## 1D DEG
 

@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
+library(ggpubr)
 ```
 
 # 2つのプレートのqfa結果を統合
@@ -126,7 +127,11 @@ integrated_qfa_scaled <- integrated_qfa %>%
   full_join(plate_median_scales_nr) %>%
   mutate(normalized_max_slope_nr=nr - plate_med_scale_nr)
 
-anova(lm(normalized_max_slope_nr ~ biorep * speed * elapsed_time, data=integrated_qfa_scaled %>%
-
+anova_table <- anova(lm(normalized_max_slope_nr ~ biorep * speed * elapsed_time, data=integrated_qfa_scaled %>%
 rename("spottingTime"=agarPlate)))
+anova_table_plot <- ggtexttable(anova_table %>% round(digits = 4), theme = ttheme("blank")) %>% 
+  tab_add_hline(at.row = c(1,2), row.side = "top", linewidth = 2) %>%
+  tab_add_hline(at.row = c(9), row.side = "bottom", linewidth = 2) %>%
+  tab_add_title("ANOVA Result", face = "bold")
+  ggsave(filename = "anova_table.svg", plot = anova_table_plot, useDingbats=FALSE)
 ```
