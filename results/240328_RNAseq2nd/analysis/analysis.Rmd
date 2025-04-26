@@ -139,7 +139,8 @@ ggsave(filename = "mds_plot.svg", width = 470/72, height = 450/72, plot = mds_pl
 ## ヒートマップ
 
 ```{r}
-col_fun <- colorRamp2(c(0, 1), c("blue", "red"))
+#col_fun <- colorRamp2(c(0, 1), c("blue", "red"))
+col_fun <- colorRamp2(c(0.9, 1), c("blue", "red"))
                       
 ha <- HeatmapAnnotation(
     Speed = meta_data$Pipetting_Speed,
@@ -233,8 +234,8 @@ is_same_metadata <- function(metadata_source, sample_id_1, sample_id_2, metadata
 is_same_metadata <- Vectorize(is_same_metadata, vectorize.args = c("sample_id_1", "sample_id_2"))
 
 df_inter_sample_correlation_with_pair_type <- df_inter_sample_correlation %>%
-  mutate(pair_speed_type = is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed")) %>%
-  mutate(pair_biorep_type = is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"))
+  mutate(pair_speed_type =if_else(is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed"), "same", "different"), pair_speed_type=factor(pair_speed_type, levels=c("same", "different"))) %>%
+  mutate(pair_biorep_type =if_else(is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"), "same", "different"), pair_biorep_type=factor(pair_biorep_type, levels=c("same", "different")))
 
 df_inter_sample_correlation_with_pair_type %>%
   tidyplot(x=pair_speed_type, y=PCC) %>%
@@ -249,14 +250,13 @@ df_inter_sample_correlation_with_pair_type %>%
   add_data_points_beeswarm() %>%
   add_test_pvalue(method = "wilcox_test") %>%
   print()
+write_csv(df_inter_sample_correlation_with_pair_type, file = "inter_sample_PCC.csv")
 ```
 
 
 ## 1D DEG
 
 ### DGEリスト・average log count を作る
-
-これは何に使うのかわからない
 
 ```{r}
 count_matrix <- count_data_filterd %>% select(-Name) %>% as.matrix()
@@ -274,9 +274,9 @@ fit <- glmQLFit(disp, design)
 res <- glmQLFTest(fit, coef=2:ncol(design))
 result_GLM <- topTags(res, n = Inf, adjust.method = "BH") %>%
   {tibble(gene_id = rownames(.), as_tibble(.$table))} %>%
-  rename("130vs50" = logFC.Pipetting_Speed130) %>%
-  rename("210vs50" = logFC.Pipetting_Speed210) %>%
-  rename("290vs50" = logFC.Pipetting_Speed290) %>%
+  rename("50vs130" = logFC.Pipetting_Speed130) %>%
+  rename("50vs210" = logFC.Pipetting_Speed210) %>%
+  rename("50vs290" = logFC.Pipetting_Speed290) %>%
   rename("BR1vsBR2" = logFC.Biological_Replicates2)
 result_GLM
 write_csv(result_GLM, file = "result_GLM.csv")
@@ -303,7 +303,7 @@ filter_fdr01
 ```{r}
 nr <- result_GLM %>% nrow()
 result_GLM %>%
-pivot_longer(., c(`130vs50`, `210vs50`, `290vs50`, BR1vsBR2), names_to = "type", values_to = "logFC") %>%
+pivot_longer(., c(`50vs130`, `50vs210`, `50vs290`, BR1vsBR2), names_to = "type", values_to = "logFC") %>%
       ggplot(aes(x = logFC, y = -log10(FDR))) +
       geom_point(aes(color = FDR < 0.01), size = 0.5, alpha = 0.6) +
       facet_wrap(~type) +
@@ -319,7 +319,7 @@ signが符号。1がプラス、-1がマイナス、0が0。
 
 ```{r}
 glm_summary <- result_GLM %>%
-  pivot_longer(c(`130vs50`, `210vs50`, `290vs50`, BR1vsBR2, ), names_to = "logFC_type", values_to = "log2FC") %>%
+  pivot_longer(c(`50vs130`, `50vs210`, `50vs290`, BR1vsBR2, ), names_to = "logFC_type", values_to = "log2FC") %>%
   #mutate(logFC_type = str_split_i(logFC_type, pattern = "\\.", i = 2)) %>%
   #mutate(sign = sign(logFC_value)) %>%
   mutate(logFC_abs_over0 = abs(log2FC) > 0) %>%
@@ -334,12 +334,11 @@ glm_summary %>%
   filter(FDR_under0.01 | FDR_under0.05 | FDR_under0.1)
 
 glm_summary %>%
-  filter(logFC_type %in% c("130vs50", "210vs50", "290vs50")) %>%
+  filter(logFC_type %in% c("50vs130", "50vs210", "50vs290")) %>%
   filter(log2FC > 0) %>%
   filter(FDR < 0.1)
 
 logFC_FDR_plot <- glm_summary %>%
-  #filter(logFC_type %in% c("130vs50", "210vs50", "290vs50")) %>%
   ggplot(aes(x=log2FC, y=-log10(FDR))) +
   geom_point(size=0.1) +
   
@@ -365,7 +364,41 @@ logFC_FDR_plot <- glm_summary %>%
     )
 print(logFC_FDR_plot)
 ggsave("logFC_FDR_plot.svg", width = 250/72, height = 450/72, plot = logFC_FDR_plot)
+ggsave("logFC_FDR_plot.png", width = 250/72, height = 450/72, plot = logFC_FDR_plot)
 ```
+
+## landscape version
+```{r}
+logFC_FDR_plot_landscape <- glm_summary %>%
+  ggplot(aes(x=log2FC, y=-log10(FDR))) +
+  geom_point(size=0.1) +
+  
+  facet_grid(. ~ logFC_type, scale="free_y", switch="y") +
+    theme_bw() +
+  theme(
+    plot.margin= unit(c(1, 0, 1, 0), "lines"),
+    aspect.ratio = 1,
+    strip.placement = "outside",
+    strip.switch.pad.grid = unit(1, "cm"),
+    strip.text = element_text(size=12),
+    #axis.title.y = element_text(size = 14, vjust = 2),
+    axis.title.y = element_blank(),
+    plot.background = element_rect(fill = "transparent", colour = NA),
+    legend.background = element_rect(fill = "transparent", colour = NA),
+    strip.background = element_blank(),
+    text = element_text(family = "Arial", color = "black"),
+    axis.title.x = element_text(size = 14),       # X軸タイトルのフォントサイズ
+    axis.text.x = element_text(size = 12, color="black"),        # X軸ラベルのフォントサイズ
+    axis.text.y = element_text(size = 12, color="black"),        # Y軸ラベルのフォントサイズ
+    legend.title = element_text(size = 13),       # 凡例タイトルのフォントサイズ
+    legend.text = element_text(size = 11),        # 凡例ラベルのフォントサイズ
+    plot.title = element_text(size = 16, hjust = 10)  # プロットタイトルのフォントサイズと中央寄せ
+    )
+print(logFC_FDR_plot_landscape)
+ggsave("logFC_FDR_plot_landscape.svg", width = 450/72, height = 250/72, plot = logFC_FDR_plot_landscape)
+ggsave("logFC_FDR_plot_landscape.png", width = 450/72, height = 250/72, plot = logFC_FDR_plot_landscape)
+```
+
 
 # Session
 

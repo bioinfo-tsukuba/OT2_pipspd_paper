@@ -172,7 +172,8 @@
 
 ## ヒートマップ
 
-    col_fun <- colorRamp2(c(0, 1), c("blue", "red"))
+    #col_fun <- colorRamp2(c(0, 1), c("blue", "red"))
+    col_fun <- colorRamp2(c(0.9, 1), c("blue", "red"))
                           
     ha <- HeatmapAnnotation(
         Speed = meta_data$Pipetting_Speed,
@@ -736,8 +737,8 @@
     is_same_metadata <- Vectorize(is_same_metadata, vectorize.args = c("sample_id_1", "sample_id_2"))
 
     df_inter_sample_correlation_with_pair_type <- df_inter_sample_correlation %>%
-      mutate(pair_speed_type = is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed")) %>%
-      mutate(pair_biorep_type = is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"))
+      mutate(pair_speed_type =if_else(is_same_metadata(meta_data, sample_1, sample_2, "Pipetting_Speed"), "same", "different"), pair_speed_type=factor(pair_speed_type, levels=c("same", "different"))) %>%
+      mutate(pair_biorep_type =if_else(is_same_metadata(meta_data, sample_1, sample_2, "Biological_Replicates"), "same", "different"), pair_biorep_type=factor(pair_biorep_type, levels=c("same", "different")))
 
     df_inter_sample_correlation_with_pair_type %>%
       tidyplot(x=pair_speed_type, y=PCC) %>%
@@ -757,11 +758,11 @@
 
 ![](analysis_files/figure-markdown_strict/unnamed-chunk-13-2.png)
 
+    write_csv(df_inter_sample_correlation_with_pair_type, file = "inter_sample_PCC.csv")
+
 ## 1D DEG
 
 ### DGEリスト・average log count を作る
-
-これは何に使うのかわからない
 
     count_matrix <- count_data_filterd %>% select(-Name) %>% as.matrix()
     rownames(count_matrix) <- count_data_filterd$Name
@@ -776,14 +777,14 @@
     res <- glmQLFTest(fit, coef=2:ncol(design))
     result_GLM <- topTags(res, n = Inf, adjust.method = "BH") %>%
       {tibble(gene_id = rownames(.), as_tibble(.$table))} %>%
-      rename("130vs50" = logFC.Pipetting_Speed130) %>%
-      rename("210vs50" = logFC.Pipetting_Speed210) %>%
-      rename("290vs50" = logFC.Pipetting_Speed290) %>%
+      rename("50vs130" = logFC.Pipetting_Speed130) %>%
+      rename("50vs210" = logFC.Pipetting_Speed210) %>%
+      rename("50vs290" = logFC.Pipetting_Speed290) %>%
       rename("BR1vsBR2" = logFC.Biological_Replicates2)
     result_GLM
 
     ## # A tibble: 5,142 × 9
-    ##    gene_id `130vs50` `210vs50` `290vs50` BR1vsBR2 logCPM     F     PValue    FDR
+    ##    gene_id `50vs130` `50vs210` `50vs290` BR1vsBR2 logCPM     F     PValue    FDR
     ##    <chr>       <dbl>     <dbl>     <dbl>    <dbl>  <dbl> <dbl>      <dbl>  <dbl>
     ##  1 YNL058C   0.0707     0.107     0.219    0.109    7.88 14.3  0.00000728 0.0200
     ##  2 URA2      0.0551     0.100     0.226    0.124   11.1  14.1  0.00000777 0.0200
@@ -816,7 +817,7 @@
     filter_fdr01
 
     ## # A tibble: 4 × 9
-    ##   gene_id `130vs50` `210vs50` `290vs50` BR1vsBR2 logCPM     F     PValue    FDR
+    ##   gene_id `50vs130` `50vs210` `50vs290` BR1vsBR2 logCPM     F     PValue    FDR
     ##   <chr>       <dbl>     <dbl>     <dbl>    <dbl>  <dbl> <dbl>      <dbl>  <dbl>
     ## 1 YNL058C    0.0707     0.107     0.219   0.109    7.88  14.3 0.00000728 0.0200
     ## 2 URA2       0.0551     0.100     0.226   0.124   11.1   14.1 0.00000777 0.0200
@@ -827,7 +828,7 @@
 
     nr <- result_GLM %>% nrow()
     result_GLM %>%
-    pivot_longer(., c(`130vs50`, `210vs50`, `290vs50`, BR1vsBR2), names_to = "type", values_to = "logFC") %>%
+    pivot_longer(., c(`50vs130`, `50vs210`, `50vs290`, BR1vsBR2), names_to = "type", values_to = "logFC") %>%
           ggplot(aes(x = logFC, y = -log10(FDR))) +
           geom_point(aes(color = FDR < 0.01), size = 0.5, alpha = 0.6) +
           facet_wrap(~type) +
@@ -843,7 +844,7 @@
 signが符号。1がプラス、-1がマイナス、0が0。
 
     glm_summary <- result_GLM %>%
-      pivot_longer(c(`130vs50`, `210vs50`, `290vs50`, BR1vsBR2, ), names_to = "logFC_type", values_to = "log2FC") %>%
+      pivot_longer(c(`50vs130`, `50vs210`, `50vs290`, BR1vsBR2, ), names_to = "logFC_type", values_to = "log2FC") %>%
       #mutate(logFC_type = str_split_i(logFC_type, pattern = "\\.", i = 2)) %>%
       #mutate(sign = sign(logFC_value)) %>%
       mutate(logFC_abs_over0 = abs(log2FC) > 0) %>%
@@ -866,35 +867,34 @@ signが符号。1がプラス、-1がマイナス、0が0。
     ## #   FDR_under0.05 [8]
     ##   logFC_type logFC_abs_over0 logFC_abs_over1 FDR_under0.01 FDR_under0.05
     ##   <chr>      <lgl>           <lgl>           <lgl>         <lgl>        
-    ## 1 130vs50    TRUE            FALSE           FALSE         FALSE        
-    ## 2 130vs50    TRUE            FALSE           FALSE         TRUE         
-    ## 3 210vs50    TRUE            FALSE           FALSE         FALSE        
-    ## 4 210vs50    TRUE            FALSE           FALSE         TRUE         
-    ## 5 290vs50    TRUE            FALSE           FALSE         FALSE        
-    ## 6 290vs50    TRUE            FALSE           FALSE         TRUE         
+    ## 1 50vs130    TRUE            FALSE           FALSE         FALSE        
+    ## 2 50vs130    TRUE            FALSE           FALSE         TRUE         
+    ## 3 50vs210    TRUE            FALSE           FALSE         FALSE        
+    ## 4 50vs210    TRUE            FALSE           FALSE         TRUE         
+    ## 5 50vs290    TRUE            FALSE           FALSE         FALSE        
+    ## 6 50vs290    TRUE            FALSE           FALSE         TRUE         
     ## 7 BR1vsBR2   TRUE            FALSE           FALSE         FALSE        
     ## 8 BR1vsBR2   TRUE            FALSE           FALSE         TRUE         
     ## # ℹ 2 more variables: FDR_under0.1 <lgl>, number_of_genes <int>
 
     glm_summary %>%
-      filter(logFC_type %in% c("130vs50", "210vs50", "290vs50")) %>%
+      filter(logFC_type %in% c("50vs130", "50vs210", "50vs290")) %>%
       filter(log2FC > 0) %>%
       filter(FDR < 0.1)
 
     ## # A tibble: 6 × 12
     ##   gene_id logCPM     F     PValue    FDR logFC_type log2FC logFC_abs_over0
     ##   <chr>    <dbl> <dbl>      <dbl>  <dbl> <chr>       <dbl> <lgl>          
-    ## 1 YNL058C   7.88  14.3 0.00000728 0.0200 130vs50    0.0707 TRUE           
-    ## 2 YNL058C   7.88  14.3 0.00000728 0.0200 210vs50    0.107  TRUE           
-    ## 3 YNL058C   7.88  14.3 0.00000728 0.0200 290vs50    0.219  TRUE           
-    ## 4 URA2     11.1   14.1 0.00000777 0.0200 130vs50    0.0551 TRUE           
-    ## 5 URA2     11.1   14.1 0.00000777 0.0200 210vs50    0.100  TRUE           
-    ## 6 URA2     11.1   14.1 0.00000777 0.0200 290vs50    0.226  TRUE           
+    ## 1 YNL058C   7.88  14.3 0.00000728 0.0200 50vs130    0.0707 TRUE           
+    ## 2 YNL058C   7.88  14.3 0.00000728 0.0200 50vs210    0.107  TRUE           
+    ## 3 YNL058C   7.88  14.3 0.00000728 0.0200 50vs290    0.219  TRUE           
+    ## 4 URA2     11.1   14.1 0.00000777 0.0200 50vs130    0.0551 TRUE           
+    ## 5 URA2     11.1   14.1 0.00000777 0.0200 50vs210    0.100  TRUE           
+    ## 6 URA2     11.1   14.1 0.00000777 0.0200 50vs290    0.226  TRUE           
     ## # ℹ 4 more variables: logFC_abs_over1 <lgl>, FDR_under0.01 <lgl>,
     ## #   FDR_under0.05 <lgl>, FDR_under0.1 <lgl>
 
     logFC_FDR_plot <- glm_summary %>%
-      #filter(logFC_type %in% c("130vs50", "210vs50", "290vs50")) %>%
       ggplot(aes(x=log2FC, y=-log10(FDR))) +
       geom_point(size=0.1) +
       
@@ -923,6 +923,41 @@ signが符号。1がプラス、-1がマイナス、0が0。
 ![](analysis_files/figure-markdown_strict/unnamed-chunk-19-1.png)
 
     ggsave("logFC_FDR_plot.svg", width = 250/72, height = 450/72, plot = logFC_FDR_plot)
+    ggsave("logFC_FDR_plot.png", width = 250/72, height = 450/72, plot = logFC_FDR_plot)
+
+## landscape version
+
+    logFC_FDR_plot_landscape <- glm_summary %>%
+      ggplot(aes(x=log2FC, y=-log10(FDR))) +
+      geom_point(size=0.1) +
+      
+      facet_grid(. ~ logFC_type, scale="free_y", switch="y") +
+        theme_bw() +
+      theme(
+        plot.margin= unit(c(1, 0, 1, 0), "lines"),
+        aspect.ratio = 1,
+        strip.placement = "outside",
+        strip.switch.pad.grid = unit(1, "cm"),
+        strip.text = element_text(size=12),
+        #axis.title.y = element_text(size = 14, vjust = 2),
+        axis.title.y = element_blank(),
+        plot.background = element_rect(fill = "transparent", colour = NA),
+        legend.background = element_rect(fill = "transparent", colour = NA),
+        strip.background = element_blank(),
+        text = element_text(family = "Arial", color = "black"),
+        axis.title.x = element_text(size = 14),       # X軸タイトルのフォントサイズ
+        axis.text.x = element_text(size = 12, color="black"),        # X軸ラベルのフォントサイズ
+        axis.text.y = element_text(size = 12, color="black"),        # Y軸ラベルのフォントサイズ
+        legend.title = element_text(size = 13),       # 凡例タイトルのフォントサイズ
+        legend.text = element_text(size = 11),        # 凡例ラベルのフォントサイズ
+        plot.title = element_text(size = 16, hjust = 10)  # プロットタイトルのフォントサイズと中央寄せ
+        )
+    print(logFC_FDR_plot_landscape)
+
+![](analysis_files/figure-markdown_strict/unnamed-chunk-20-1.png)
+
+    ggsave("logFC_FDR_plot_landscape.svg", width = 450/72, height = 250/72, plot = logFC_FDR_plot_landscape)
+    ggsave("logFC_FDR_plot_landscape.png", width = 450/72, height = 250/72, plot = logFC_FDR_plot_landscape)
 
 # Session
 
@@ -989,7 +1024,7 @@ signが符号。1がプラス、-1がマイナス、0が0。
     ## Warning: Removed 29 rows containing missing values or values outside the scale range
     ## (`geom_bar()`).
 
-![](analysis_files/figure-markdown_strict/unnamed-chunk-21-1.png)
+![](analysis_files/figure-markdown_strict/unnamed-chunk-22-1.png)
 
 ### FDR &lt; 0.1でフィルタリング
 
